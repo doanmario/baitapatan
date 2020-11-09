@@ -16,7 +16,7 @@ function kiemtrasonguyento(n)
         return true;
     }
 }
-var arr=[2,3,5,7,11,13,22,25,26,27]
+var arr=[2,3,5,8,11,13,22,25,26,27]
 var count=0;
  for( var i=0;i<100;i++)
     {
