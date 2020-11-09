@@ -7,4 +7,4 @@
             vitri.push(i);
         }
     }
-    console.log("Các vi trí âm là ",vitri)
+    console.log("Các vi trí âm là ",vitri);
