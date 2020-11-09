@@ -6,6 +6,5 @@ for(let i=0;i<=arr.length;i++)
     {
         tong=tong +arr[i];
     }
-    
 }
 console.log("Kết quả là ",tong );
