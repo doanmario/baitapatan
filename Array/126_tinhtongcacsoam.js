@@ -1,10 +1,14 @@
-var arr =[-1,2,-3,4,-5,6,-7]
-var tong=0;
-for(let i=0;i<=arr.length;i++)
+function tinhtong(arr)
 {
-    if(arr[i]<0)
+    
+    var tong=0;
+    for(let i=0;i<=arr.length;i++)
     {
-        tong=tong +arr[i];
+        if(arr[i]<0)
+        {
+            tong=tong +arr[i];
+        }
     }
+    return tong;
 }
-console.log("Kết quả là ",tong );
+console.log("Kết quả là ",tinhtong([-1,2,-3,4,-5,6,-7]));

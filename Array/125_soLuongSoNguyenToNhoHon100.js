@@ -16,14 +16,18 @@ function kiemtrasonguyento(n)
         return true;
     }
 }
-var arr=[2,3,5,8,11,13,22,25,26,27]
-var count=0;
- for( var i=0;i<100;i++)
-    {
-            if(kiemtrasonguyento(arr[i])==true && arr[i]<100)
-            {
-                count ++;
-            }
-           // return count;
-    }
-    console.log("số lượng số nguyên tô là "+count); 
+function main(arr)
+{
+   
+    var count=0;
+     for( var i=0;i<100;i++)
+        {
+                if(kiemtrasonguyento(arr[i])==true && arr[i]<100)
+                {
+                    count ++;
+                }
+              
+        }
+        return count; 
+}
+console.log("kết quả là", main([2,3,5,8,11,13,22,25,26,27]));

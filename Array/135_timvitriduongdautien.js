@@ -1,16 +1,17 @@
-var mangduong=[-1,-2,-3,4,5,6,7,8,9];
-var vitri;
-for(let i=0;i<=mangduong.length;i++)
-{
-    if(mangduong[i]>0)
-    {
-    return mangduong[i];
-    break;
-    }
+function mang(mangduong){
     
-} 
-return -1;
 
+    for(let i=0;i < mangduong.length;i++)
+   {
+   
+       if(mangduong[i]>0)
+       {
+       return i;
+       }
+   } 
+   return -1;
+}
+console.log("vị trí ",mang([2,-3,-4,-5,-6,-7,-8,-9]));
 
 
 
