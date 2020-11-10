@@ -9,4 +9,4 @@ for(let i=1;i<mang.length;i++)
         vitri=i;
     }
 }
-console.log("Vị trí nhỉ nhât là ", vitri)
+console.log("Vị trí nhỏ nhât là ", vitri)
