@@ -12,4 +12,5 @@ function timgiatringuyenduong(arr)
     return -1;
 }
 
-console.log("Kết quả là ",timgiatringuyenduong([3,-2,-1,1,6,7,8]))
+console.log("Kết quả là ",timgiatringuyenduong([3,-2,-1,1,6,7,8]));
+ss
